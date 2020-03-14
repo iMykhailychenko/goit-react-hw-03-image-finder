@@ -1,0 +1,32 @@
+.ImageGallery {
+  display: grid;
+  max-width: calc(100vw - 48px);
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-gap: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.epmpty {
+  margin: 30px;
+  text-align: center;
+  line-height: 2;
+}
+
+mark {
+  padding: 4px 6px;
+  border-radius: 6px;
+  background: #eee;
+  color: #444;
+}
+
+.Loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
