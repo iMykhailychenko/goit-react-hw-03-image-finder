@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://iMykhailychenko.github.io/goit-react-hw-03-image-finder/",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "classnames": "^2.2.6",
     "clsx": "^1.0.4",
     "formik": "^2.1.4",
